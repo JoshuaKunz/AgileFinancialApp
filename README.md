@@ -4,6 +4,9 @@ Josh Kunz (Add your names here)
 
 # Budget and Financial Management Application
 
+## Helpful Articles:
+* [Android MVVM Design Pattern](https://www.journaldev.com/20292/android-mvvm-design-pattern)
+
 ### Requirements:
 1. Users must have a secure login
 2. Users should be able to keep track of deposits(income)
