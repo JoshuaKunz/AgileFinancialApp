@@ -43,6 +43,24 @@ Just to throw out some ideas
 2. [Source Tree](https://www.sourcetreeapp.com/) if you don’t plan on using the command line
 3. [Android Studio](https://developer.android.com/studio)
 
+## Cloning The Repository To Your Local Machine
+* Find the green button that says 'Code' and click on that. It will let you copy the URL to the repository.
+* Create a folder and name it something like Repos
+* Open a Command prompt, GIT Bash, or Terminal which ever you prefer to use (if your using the command line)
+* cd into your new Repos folder
+* run the following command: 
+```
+//Shift Insert to paste in copied text if your using git bash
+git clone Url.That.You.Copied
+cd AgileFinancialApp
+git checkout develop
+```
+
+And if you are already ready to create your branch then run:
+```
+git checkout -b yourName/branchName
+```
+
 ### Make sure you are not making any changes directly to the master branch OR the develop branch. All of your changes should take place on your own branch.
 Make sure you checkout develop and create your branch from develop because master is for our final project updates. Before you start making changes, be sure to create a new branch with the naming convention <yourName/nameOfBranch> to keep organized. For example I would do something like:
 
