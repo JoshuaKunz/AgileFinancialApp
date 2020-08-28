@@ -111,7 +111,8 @@ Follow along the chat messages in Discord.
 * OverviewView
 
 ### Other Meaningful Classes:
-
+* AppService
+* AppFactory
 
 
 ### Database Schema:
