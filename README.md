@@ -1,10 +1,11 @@
 # Agile Team #2
-Joshua Kunz
-Alexander Dragseth
-Colton B Johnson
-Steven Walley
-Skyler W Whitney
-8/27/2020
+* Joshua Kunz
+* Alexander Dragseth
+* Colton B Johnson
+* Steven Walley
+* Skyler W Whitney
+
+#### 8/27/2020
 
 # Budget and Financial Management Application
 
