@@ -8,6 +8,7 @@
 #### 8/27/2020
 
 # Budget and Financial Management Application
+### Feel free to add to this document
 
 ## Helpful Articles:
 * [Android MVVM Design Pattern](https://www.journaldev.com/20292/android-mvvm-design-pattern)
