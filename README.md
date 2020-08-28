@@ -43,8 +43,8 @@ Just to throw out some ideas
 2. [Source Tree](https://www.sourcetreeapp.com/) if you don’t plan on using the command line
 3. [Android Studio](https://developer.android.com/studio)
 
-
-Make sure you switch into the branch: develop because Master is for our working project updates. Before you start making changes, be sure to create a new branch with the naming convention <yourName/nameOfBranch>. For example I would do something like:
+### Make sure you are not making any changes directly to the master branch OR the develop branch. All of your changes should take place on your own branch.
+Make sure you checkout develop and create your branch from develop because master is for our final project updates. Before you start making changes, be sure to create a new branch with the naming convention <yourName/nameOfBranch> to keep organized. For example I would do something like:
 
 ```
 git checkout develop
@@ -70,7 +70,16 @@ Later on when you are finished with your branch you can set up a pull request, w
 git checkout develop
 git pull
 ```
-You may need to stash your changes first before you can.
+You may need to stash your changes first before you can, you may need to commit your changes before merging as well.
+
+Once you have pulled in the new changes from develop, you will want to merge develop into YOUR branch:
+```
+git checkout myBranch
+git merge develop
+```
+
+To avoid conflicts I would suggest that everyone works on different documents/classes.
+If we change the same line of code for instance, it will trigger a conflict and you will need to decide which changes to keep.
 
 ### Useful Git commands:
 If you are not using the command line, you can skip this.
